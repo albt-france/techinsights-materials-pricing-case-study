@@ -6,7 +6,7 @@ Independent case study built for a *Data Analyst - semiconductor materials prici
 It uses **public data only** and is **not affiliated with or endorsed by TechInsights**; no TechInsights or TECHCET figures are used.
 
 - Report (11 pages, PDF): [docs/TechInsights_MaterialsPricing_CaseStudy.pdf](docs/TechInsights_MaterialsPricing_CaseStudy.pdf)
-- Excel tracker (Power Query, dashboard, reconciliation, FORECAST.ETS nowcast): [excel/Semiconductor_Materials_Price_Tracker.xlsx](excel/Semiconductor_Materials_Price_Tracker.xlsx)
+- Excel tracker (Power Query, dashboard, reconciliation, FORECAST.ETS nowcast): [view it online](#excel-tracker) (screenshots and a [6-page PDF preview](docs/Excel_Tracker_Preview.pdf)) or [download the .xlsx](excel/Semiconductor_Materials_Price_Tracker.xlsx)
 
 ## Key results
 | | Result | Data |
@@ -73,6 +73,15 @@ data/marts   tracker, origins, reconciliation,    sql/04_marts.sql, pipeline/rec
 Comext arrives about two months late. Three explainable methods (last value, damped-trend exponential smoothing, regression on the World Bank price for metals) are back-tested on 24 rolling origins; the best one per material is kept, with an 80% interval taken from its own past errors. The Excel tracker reproduces the nowcast with `FORECAST.ETS` / `FORECAST.ETS.CONFINT` and an in-sheet "if I had forecast 6 months ago" test.
 
 ## Excel tracker
+GitHub cannot display .xlsx files, so the sheets are shown here as images (all sheets: [PDF preview](docs/Excel_Tracker_Preview.pdf)).
+
+![Excel dashboard](docs/img/excel_dashboard.png)
+
+| | |
+|---|---|
+| ![Excel reconciliation](docs/img/excel_reconciliation.png) | ![Excel nowcast](docs/img/excel_nowcast.png) |
+| ![Excel quality checks](docs/img/excel_quality.png) | ![Excel data dictionary](docs/img/excel_dictionary.png) |
+
 `excel/Semiconductor_Materials_Price_Tracker.xlsx` - 13 Power Query queries read the CSV files relative to the workbook's own location (no path to edit: *Data > Refresh All*). Sheets: README, Dashboard (material picker, KPIs, chart, overview with sparklines), Reconciliation (pair explorer, alerts, links to cards), Nowcast, Quality checks (check x material matrix), Data dictionary, Discrepancy log. Formulas: `FILTER`, `SORTBY`, `XLOOKUP`, `LET`, `CHOOSECOLS`, `TAKE`, `VSTACK`, two-dimensional `SUMIFS`/`COUNTIFS`. Rebuilt with `python src/build_excel.py` (Windows + Excel 365) and verified with `python src/check_excel.py`.
 
 ## Unbiased price survey (SIMULATED example)
@@ -97,5 +106,6 @@ AI-assisted workflow: I used Claude, mainly to write scripts faster. I drove the
 .venv\Scripts\python src\build_notebooks.py
 .venv\Scripts\python src\build_excel.py        # Windows + Excel 365
 .venv\Scripts\python src\check_excel.py
+.venv\Scripts\python src\export_excel_preview.py   # PDF + images of the sheets, shown on GitHub
 .venv\Scripts\python src\build_report.py       # needs Microsoft Edge or Chrome
 ```

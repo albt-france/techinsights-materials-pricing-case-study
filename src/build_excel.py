@@ -232,7 +232,7 @@ def line_chart(ws, left_cell: str, right_cell: str, title: str, series: list[tup
     try:
         ax = ch.Axes(2)
         ax.MajorGridlines.Format.Line.ForeColor.RGB = rgb(GRID)
-        numfmt(ch.Axes(1).TickLabels, "mmm yy")
+        numfmt(ch.Axes(1).TickLabels, "[$-en-US]mmm yy")
         ch.Axes(1).CategoryType = 3                                 # time-scale axis
     except Exception:
         pass
@@ -341,7 +341,7 @@ def build_dashboard(wb, ws):
         ws.Range(f"{first[0]}9").HorizontalAlignment = -4131
         ws.Range(f"{first[0]}9").VerticalAlignment = -4108
     fml(ws, "B9", "=LET(v,FILTER(tbl_monthly[eu_import_uv_eur_kg],tbl_monthly[material_id]=SelMat),INDEX(v,ROWS(v)))", "#,##0.00", 22, True)
-    fml(ws, "B11", "=MAXIFS(tbl_monthly[period],tbl_monthly[material_id],SelMat)", "mmm yyyy", 9, color=INK2)
+    fml(ws, "B11", "=MAXIFS(tbl_monthly[period],tbl_monthly[material_id],SelMat)", "[$-en-US]mmm yyyy", 9, color=INK2)
     ws.Range("B11").HorizontalAlignment = -4131
     label(ws, "C11", "EUR/kg", 9, False, INK2)
     fml(ws, "E9", "=LET(p,MAXIFS(tbl_monthly[period],tbl_monthly[material_id],SelMat),"
@@ -493,7 +493,7 @@ def build_nowcast(wb, ws):
     for c, t in zip("BCDEF", ["Month", "Nowcast", "80% low", "80% high", "Python (selected)"]):
         label(ws, f"{c}8", t, 8, True, INK2)
     for i, r in enumerate((9, 10), start=1):
-        fml(ws, f"B{r}", f"=EDATE(MAX(nc_t),{i})", "mmm yyyy", 10, True)
+        fml(ws, f"B{r}", f"=EDATE(MAX(nc_t),{i})", "[$-en-US]mmm yyyy", 10, True)
         fml(ws, f"C{r}", f"=FORECAST.ETS(B{r},nc_v,nc_t,0,1)", "#,##0.00", 11, True, BLUE)
         fml(ws, f"D{r}", f"=C{r}-FORECAST.ETS.CONFINT(B{r},nc_v,nc_t,0.8,0,1)", "#,##0.00", 10, color=INK2)
         fml(ws, f"E{r}", f"=C{r}+FORECAST.ETS.CONFINT(B{r},nc_v,nc_t,0.8,0,1)", "#,##0.00", 10, color=INK2)
@@ -506,7 +506,7 @@ def build_nowcast(wb, ws):
         label(ws, f"{c}15", t, 8, True, INK2)
     for k in range(1, 7):
         r = 15 + k
-        fml(ws, f"B{r}", f"=INDEX(nc_t,nc_n-6+{k})", "mmm yyyy", 9)
+        fml(ws, f"B{r}", f"=INDEX(nc_t,nc_n-6+{k})", "[$-en-US]mmm yyyy", 9)
         fml(ws, f"C{r}", f"=INDEX(nc_v,nc_n-6+{k})", "#,##0.00", 9)
         fml(ws, f"D{r}", f"=FORECAST.ETS(B{r},INDEX(nc_v,1):INDEX(nc_v,nc_n-6),INDEX(nc_t,1):INDEX(nc_t,nc_n-6),0,1)", "#,##0.00", 9)
         fml(ws, f"E{r}", f"=ABS(C{r}/D{r}-1)", "0.0%", 9)
