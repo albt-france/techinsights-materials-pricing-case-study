@@ -1,0 +1,20 @@
+material_id,cn8_code,valid_from,valid_to,cn8_label,change_note
+POLYSI,28046100,2017-01,,Silicon containing >= 99.99% by weight of silicon,
+SI_MET,28046900,2017-01,,Silicon containing < 99.99% by weight of silicon,
+GA,81129289,2017-01,,Unwrought gallium; gallium powders,
+GE,81129295,2017-01,,Unwrought germanium; germanium powders,
+IN,81129281,2017-01,,Unwrought indium; indium powders,
+W,26110000,2017-01,,Tungsten ores and concentrates,
+CU,74031100,2017-01,,"Copper, refined, cathodes and sections of cathodes",
+SN,80011000,2017-01,,"Unwrought tin, not alloyed",
+AL,76011000,2017-01,2022-12,"Aluminium, not alloyed, unwrought",Split on 2023-01-01
+AL,76011010,2023-01,,"Aluminium slabs, not alloyed, unwrought",New code from 2023-01-01 (part of former 76011000)
+AL,76011090,2023-01,,"Aluminium, not alloyed, unwrought (excl. slabs)",New code from 2023-01-01 (part of former 76011000)
+HE,28042910,2017-01,,Helium,
+NE,28042990,2017-01,,"Neon, krypton and xenon",
+HF,28111100,2017-01,,"Hydrogen fluoride (hydrofluoric acid)",
+H2SO4,28070000,2017-01,,Sulphuric acid; oleum,
+NH3,28141000,2017-01,,Anhydrous ammonia,
+WAFER,38180010,2017-01,2025-12,"Silicon doped for use in electronics, discs, wafers, cylinders, rods",Split on 2026-01-01
+WAFER,38180011,2026-01,,"Doped silicon wafers <= 200 micrometres, rectangular (photovoltaic wafers)",New code from 2026-01-01 (part of former 38180010)
+WAFER,38180019,2026-01,,"Silicon doped for use in electronics (excl. photovoltaic wafers)",New code from 2026-01-01 (part of former 38180010)

@@ -1,0 +1,2 @@
+n_invited,n_valid,weighted_mean,weighted_median,unweighted_mean,ci90_low,ci90_high,buyers_mean,sellers_mean,response_rate,rejected,comext_q3_2026_eur_kg,gap_vs_comext,data_label
+49,33,3.52085935679833,3.506,3.6571210237580694,3.419205487583148,3.6409116656687135,3.560345749295213,3.9151884223256883,0.7346938775510204,3,3.5100517732821035,0.003079038206357021,SIMULATED

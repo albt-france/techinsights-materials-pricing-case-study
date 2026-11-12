@@ -1,0 +1,41 @@
+material_id,series_id,year,mcs2025,mcs2026,revision,native_unit
+AL,USGS_AL_SPOT,2021,138.5,138.5,0.0,cents per pound
+AL,USGS_AL_SPOT,2022,152.6,152.6,0.0,cents per pound
+AL,USGS_AL_SPOT,2023,125.9,125.9,0.0,cents per pound
+AL,USGS_AL_SPOT,2024,130.0,129.5,-0.0038461538461538325,cents per pound
+NH3,USGS_AMMONIA,2021,578.0,578.0,0.0,dollars per short ton
+NH3,USGS_AMMONIA,2022,1070.0,1070.0,0.0,dollars per short ton
+NH3,USGS_AMMONIA,2023,470.0,470.0,0.0,dollars per short ton
+NH3,USGS_AMMONIA,2024,440.0,440.0,0.0,dollars per short ton
+CU,USGS_CU_LME,2021,422.5,422.5,0.0,cents per pound
+CU,USGS_CU_LME,2022,399.8,399.8,0.0,cents per pound
+CU,USGS_CU_LME,2023,384.8,384.8,0.0,cents per pound
+CU,USGS_CU_LME,2024,420.0,414.7,-0.01261904761904764,cents per pound
+HF,USGS_FLUORSPAR_ACID,2021,322.0,322.0,0.0,dollars per metric ton
+HF,USGS_FLUORSPAR_ACID,2022,387.0,387.0,0.0,dollars per metric ton
+HF,USGS_FLUORSPAR_ACID,2023,429.0,428.0,-0.002331002331002363,dollars per metric ton
+HF,USGS_FLUORSPAR_ACID,2024,470.0,464.0,-0.012765957446808529,dollars per metric ton
+GA,USGS_GA,2021,625.0,277.0,-0.5568,dollars per kilogram
+GA,USGS_GA,2022,560.0,432.0,-0.22857142857142854,dollars per kilogram
+GA,USGS_GA,2023,450.0,365.0,-0.18888888888888888,dollars per kilogram
+GA,USGS_GA,2024,500.0,439.0,-0.122,dollars per kilogram
+GE,USGS_GE_METAL,2021,1187.0,1187.0,0.0,dollars per kilogram
+GE,USGS_GE_METAL,2022,1294.0,1294.0,0.0,dollars per kilogram
+GE,USGS_GE_METAL,2023,1392.0,1392.0,0.0,dollars per kilogram
+GE,USGS_GE_METAL,2024,2100.0,1991.0,-0.0519047619047619,dollars per kilogram
+IN,USGS_IN_ROTTERDAM,2021,217.0,217.0,0.0,dollars per kilogram
+IN,USGS_IN_ROTTERDAM,2022,257.0,252.0,-0.01945525291828798,dollars per kilogram
+IN,USGS_IN_ROTTERDAM,2023,238.0,249.0,0.04621848739495804,dollars per kilogram
+IN,USGS_IN_ROTTERDAM,2024,300.0,311.0,0.036666666666666625,dollars per kilogram
+SI_MET,USGS_SI_METAL,2021,220.31,220.31,0.0,cents per pound
+SI_MET,USGS_SI_METAL,2022,361.86,361.86,0.0,cents per pound
+SI_MET,USGS_SI_METAL,2023,179.69,179.69,0.0,cents per pound
+SI_MET,USGS_SI_METAL,2024,180.0,170.34,-0.05366666666666664,cents per pound
+H2SO4,USGS_SULFUR,2021,90.4,90.4,0.0,dollars per metric ton
+H2SO4,USGS_SULFUR,2022,177.8,177.8,0.0,dollars per metric ton
+H2SO4,USGS_SULFUR,2023,58.9,58.9,0.0,dollars per metric ton
+H2SO4,USGS_SULFUR,2024,50.0,46.42,-0.0716,dollars per metric ton
+W,USGS_W_CONC,2021,225.0,225.0,0.0,dollars per metric ton unit WO3
+W,USGS_W_CONC,2022,275.0,275.0,0.0,dollars per metric ton unit WO3
+W,USGS_W_CONC,2023,258.0,258.0,0.0,dollars per metric ton unit WO3
+W,USGS_W_CONC,2024,250.0,252.0,0.008000000000000007,dollars per metric ton unit WO3

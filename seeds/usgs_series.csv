@@ -1,0 +1,11 @@
+series_id,material_id,mcs2026_chapter,mcs2026_detail_contains,mcs2025_file,mcs2025_column,native_unit,usd_per_kg_factor,comparison_basis,definition
+USGS_SI_METAL,SI_MET,SILICON,Silicon metal,MCS2025_silicon_salient,Price_Si_ctslb,cents per pound,0.0220462,same_product,"US market price, silicon metal"
+USGS_GA,GA,GALLIUM,average unit value of imports,MCS2025_gallium_salient,Price_High-purity_dkg,dollars per kilogram,1,same_product,"MCS2026: average unit value of US imports; MCS2025: high-purity gallium price (definition changed between editions)"
+USGS_GE_METAL,GE,GERMANIUM,Germanium metal,MCS2025_germanium_salient,Price_Metal_dkg,dollars per kilogram,1,same_product,"Germanium metal, annual average"
+USGS_IN_ROTTERDAM,IN,INDIUM,"Rotterdam, duties unpaid",MCS2025_indium_salient,Price_Rotterdam_dkg,dollars per kilogram,1,same_product,"Indium, Rotterdam, duties unpaid (close to EU CIF border value)"
+USGS_W_CONC,W,TUNGSTEN,concentrate,MCS2025_tungsten_salient,Price_WO3_dt,dollars per metric ton unit WO3,0.1,content_basis,"Concentrate, in-warehouse Rotterdam, per 10 kg of WO3 content (Comext is per kg of gross concentrate)"
+USGS_CU_LME,CU,COPPER,"London Metal Exchange, grade A",MCS2025_copper_salient,Price_LME_ctslb,cents per pound,0.0220462,same_product,"LME grade A cash"
+USGS_AL_SPOT,AL,ALUMINUM,"ingot, average U.S. market",MCS2025_aluminum_salient,Price_Ingot_ctslb,cents per pound,0.0220462,same_product,"Ingot, US market spot (includes US Midwest premium)"
+USGS_AMMONIA,NH3,NITROGEN,free on board Gulf Coast,MCS2025_nitrogen_salient,Price_dst,dollars per short ton,0.00110231,same_product,"Anhydrous ammonia FOB US Gulf Coast"
+USGS_SULFUR,H2SO4,SULFUR,elemental sulfur,MCS2025_sulfur_salient,Price_elemental_dt,dollars per metric ton,0.001,feedstock,"Elemental sulfur (feedstock of sulphuric acid, not the same product)"
+USGS_FLUORSPAR_ACID,HF,FLUORSPAR,Acid grade,MCS2025_fluorspar_salient,Price_Acid_dt,dollars per metric ton,0.001,feedstock,"Acid-grade fluorspar CIF US (feedstock of hydrofluoric acid, not the same product)"

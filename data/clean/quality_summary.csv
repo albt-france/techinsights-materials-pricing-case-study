@@ -1,0 +1,11 @@
+check_id,check_name,severity,rows_flagged,materials_affected
+QC01,Missing month,error,7,2
+QC02,Value without quantity,warn,6006,15
+QC03,Unit-value outlier,warn,49,11
+QC04,Thin trade month,info,24,5
+QC05,Nomenclature change,info,4,2
+QC08,Inconsistent units (kg vs m3),warn,47,2
+QC09,Partner country not disclosed,info,154,8
+QC11,Stale source,info,6,0
+QC13,Estimated quantity (Comtrade),info,56,0
+QC14,Implausible partner flow (excluded),warn,6712,15

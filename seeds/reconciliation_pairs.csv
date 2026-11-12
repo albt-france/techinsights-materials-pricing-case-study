@@ -1,0 +1,23 @@
+pair_id,material_id,frequency,series_a,series_b,comparison,expected_low,expected_high,discrepancy_id
+R01,CU,M,COMEXT_IMP_CU,WB_COPPER,EU import unit value (CIF) vs LME cash,-0.03,0.06,D01
+R02,SN,M,COMEXT_IMP_SN,WB_TIN,EU import unit value (CIF) vs LME cash,-0.06,0.08,D01
+R03,AL,M,COMEXT_IMP_AL,WB_ALUMINUM,EU import unit value (CIF) vs LME cash,0.00,0.20,D01
+R04,CU,M,WB_COPPER,IMF_COPPER,World Bank vs IMF benchmark,-0.01,0.01,
+R05,SN,M,WB_TIN,IMF_TIN,World Bank vs IMF benchmark,-0.01,0.01,
+R06,AL,M,WB_ALUMINUM,IMF_ALUMINUM,World Bank vs IMF benchmark,-0.01,0.01,
+R07,AL,A,USGS_AL_SPOT,WB_ALUMINUM,US market spot vs LME cash,0.00,0.30,D02
+R08,GA,A,COMEXT_IMP_GA,USGS_GA,EU import unit value vs US import unit value,-0.30,0.30,D03
+R09,GE,A,COMEXT_IMP_GE,USGS_GE_METAL,EU import unit value vs germanium metal price,-0.40,0.10,D04
+R10,IN,A,COMEXT_IMP_IN,USGS_IN_ROTTERDAM,EU import unit value vs Rotterdam price,-0.25,0.10,
+R11,SI_MET,A,COMEXT_IMP_SI_MET,USGS_SI_METAL,EU import unit value vs US market price,-0.60,0.00,D02
+R12,SI_MET,A,COMEXT_IMP_SI_MET,COMTRADE_156_export_0_280469,EU import (CIF) vs China export (FOB) unit value,0.00,0.40,
+R13,NH3,A,COMEXT_IMP_NH3,USGS_AMMONIA,EU import (CIF) vs US Gulf (FOB),-0.15,0.40,
+R14,W,A,COMEXT_IMP_W,USGS_W_CONC,EU import per kg of concentrate vs price per kg of WO3 content,,,D05
+R15,POLYSI,A,COMEXT_IMP_POLYSI,COMTRADE_156_export_0_280461,EU import vs China export unit value (same CN code),,,D06
+R16,POLYSI,A,MIRROR_POLYSI_VALUE,,Germany exports to China (FOB) vs China imports from Germany (CIF),-0.12,0.00,D07
+R17,GA+GE+IN,A,MIRROR_GA+GE+IN_VALUE,,Germany imports from China (CIF) vs China exports to Germany (FOB),0.00,0.15,D08
+R18,WAFER,A,MIRROR_WAFER_KG,,Germany imports from Japan vs Japan exports to Germany (net kg),-0.10,0.10,D09
+R19,MULTI,A,USGS_REVISIONS,,Same year in MCS2025 vs MCS2026,-0.05,0.05,D10
+R20,NE,M,COMEXT_IMP_NE_RAW,COMEXT_IMP_NE,Published extra-EU unit value vs validated (QC14) unit value,-0.25,0.25,D11
+R21,HE,M,HE_CONFIDENTIAL_SHARE,,Share of EU helium imports with a confidential partner country,0.00,0.10,D12
+R22,POLYSI,M,EU_VS_EU27_POLYSI,,EU (changing composition) vs EU27_2020 extra-EU imports in 2018-2019,-0.02,0.02,D13

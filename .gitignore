@@ -1,0 +1,18 @@
+# local only
+.env
+.venv/
+DECISIONS.md
+NOTES.md
+build/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+*.duckdb
+*.duckdb.wal
+~$*.xlsx
+
+# large or licence-restricted raw data (re-downloaded by `python -m pipeline run`)
+data/raw/comext/*.csv
+data/raw/comtrade/*.csv
+# intermediate staging files (rebuilt at every run)
+data/clean/stg_*.csv

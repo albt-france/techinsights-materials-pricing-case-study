@@ -1,0 +1,17 @@
+# pipeline
+pandas==3.1.1
+numpy==2.5.4
+duckdb==2.0.0
+requests==2.34.2
+statsmodels==0.15.0
+# report and charts
+matplotlib==3.11.2
+pypdf==7.0.1
+pypdfium2==5.15.2
+# Excel tracker (build_excel.py needs Windows + Microsoft Excel 365)
+pywin32==312; sys_platform == "win32"
+openpyxl==3.1.5
+# notebooks
+nbformat==5.11.1
+nbclient==0.11.0
+ipykernel==7.4.0

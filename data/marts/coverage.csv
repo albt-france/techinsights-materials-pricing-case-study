@@ -1,0 +1,16 @@
+material_id,material,chain_stage,stage_order,comext_monthly,comtrade_annual,usgs_annual,exchange_benchmark_monthly,price_index
+AL,Aluminium (unwrought),Raw materials & metals,1,yes,no,yes,yes,none
+CU,Copper (refined cathodes),Raw materials & metals,1,yes,no,yes,yes,PPI_NONFERROUS
+GA,Gallium,Raw materials & metals,1,yes,"yes (HS6, shared heading)",yes,no,none
+GE,Germanium,Raw materials & metals,1,yes,"yes (HS6, shared heading)",yes,no,none
+IN,Indium,Raw materials & metals,1,yes,"yes (HS6, shared heading)",yes,no,none
+POLYSI,Polysilicon (Si >= 99.99%),Raw materials & metals,1,yes,yes (HS6),no,no,PPI_SEMI
+SI_MET,Silicon metal (Si < 99.99%),Raw materials & metals,1,yes,yes (HS6),yes,no,none
+SN,Tin (unwrought),Raw materials & metals,1,yes,no,no,yes,PPI_NONFERROUS
+W,Tungsten (ores and concentrates),Raw materials & metals,1,yes,no,content basis,no,none
+HE,Helium,Gases,2,yes,"yes (HS6, shared heading)",no,no,PPI_GASES
+NE,"Neon, krypton and xenon",Gases,2,yes,"yes (HS6, shared heading)",no,no,PPI_GASES
+H2SO4,Sulphuric acid,Chemicals,3,yes,no,feedstock only,no,PPI_INORGANIC
+HF,Hydrofluoric acid,Chemicals,3,yes,no,feedstock only,no,PPI_INORGANIC
+NH3,Ammonia (anhydrous),Chemicals,3,yes,no,yes,no,PPI_INORGANIC
+WAFER,Doped silicon wafers,Intermediate & finished,4,yes,yes (HS6),no,no,PPI_SEMI

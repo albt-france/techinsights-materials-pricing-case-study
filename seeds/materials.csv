@@ -1,0 +1,16 @@
+material_id,material,chain_stage,stage_order,fab_use,standard_unit,purity_or_grade,comext_codes,hs6,usgs_series,benchmark_series,index_series,notes,plausible_min_eur_kg,plausible_max_eur_kg
+POLYSI,Polysilicon (Si >= 99.99%),Raw materials & metals,1,Feedstock for wafer ingots,EUR/kg,>= 99.99% Si (solar and electronic grades mixed),28046100,280461,,,PPI_SEMI,CN8 does not separate solar from electronic grade (9N vs 11N): mix effect,1.0,200
+SI_MET,Silicon metal (Si < 99.99%),Raw materials & metals,1,Feedstock for polysilicon and silanes,EUR/kg,< 99.99% Si (metallurgical grade),28046900,280469,USGS_SI_METAL,,,,0.5,20
+GA,Gallium,Raw materials & metals,1,GaN / GaAs compound semiconductors,EUR/kg,Unwrought and powders,81129289,811292,USGS_GA,,,China export licensing from 2023-08-01,50.0,3000
+GE,Germanium,Raw materials & metals,1,SiGe devices; optics and fibre,EUR/kg,Unwrought and powders,81129295,811292,USGS_GE_METAL,,,China export licensing from 2023-08-01,300.0,20000
+IN,Indium,Raw materials & metals,1,InP devices; ITO sputtering targets,EUR/kg,Unwrought and powders,81129281,811292,USGS_IN_ROTTERDAM,,,,50.0,2000
+W,Tungsten (ores and concentrates),Raw materials & metals,1,Contacts and plugs (W CVD via WF6),EUR/kg,Concentrate (gross weight; WO3 content varies),26110000,261100,USGS_W_CONC,,,USGS quotes per metric ton unit (10 kg) of WO3 content,0.5,100
+CU,Copper (refined cathodes),Raw materials & metals,1,Interconnects; plating; sputtering targets,EUR/kg,Grade A cathode,74031100,740311,USGS_CU_LME,WB_COPPER;IMF_COPPER,PPI_NONFERROUS,,2.0,30
+SN,Tin (unwrought),Raw materials & metals,1,Solder for packaging,EUR/kg,Unwrought not alloyed,80011000,800110,,WB_TIN;IMF_TIN,PPI_NONFERROUS,,8.0,100
+AL,Aluminium (unwrought),Raw materials & metals,1,Metallization; sputtering targets,EUR/kg,Unwrought not alloyed,76011000|76011010+76011090,760110,USGS_AL_SPOT,WB_ALUMINUM;IMF_ALUMINUM,,CN 76011000 split into 76011010 + 76011090 on 2023-01-01,0.8,10
+HE,Helium,Gases,2,Wafer cooling; carrier and purge gas,EUR/kg,Gas (supplementary unit m3),28042910,280429,,,PPI_GASES,Quantity reported both in kg and in m3,2.0,500
+NE,"Neon, krypton and xenon",Gases,2,Excimer laser gas mixtures for lithography,EUR/kg,Rare gases excluding helium and argon,28042990,280429,,,PPI_GASES,Neon cannot be separated from krypton and xenon in CN8,5.0,50000
+HF,Hydrofluoric acid,Chemicals,3,Wet etching and cleaning,EUR/kg,All concentrations (electronic grade not separated),28111100,281111,USGS_FLUORSPAR_ACID,,PPI_INORGANIC,,0.3,30
+H2SO4,Sulphuric acid,Chemicals,3,Wafer cleaning (SPM / piranha),EUR/kg,All grades,28070000,280700,USGS_SULFUR,,PPI_INORGANIC,,0.02,5
+NH3,Ammonia (anhydrous),Chemicals,3,Nitride deposition; cleaning (SC-1),EUR/kg,Anhydrous,28141000,281410,USGS_AMMONIA,,PPI_INORGANIC,USGS quotes FOB Gulf Coast per short ton,0.1,5
+WAFER,Doped silicon wafers,Intermediate & finished,4,Substrate for chips,EUR/kg,Doped Si discs and wafers,38180010|38180011+38180019,381800,,,PPI_SEMI,CN 38180010 split into 38180011 (photovoltaic) + 38180019 (other) on 2026-01-01,10.0,20000

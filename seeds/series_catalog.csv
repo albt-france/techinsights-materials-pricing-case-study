@@ -1,0 +1,11 @@
+series_id,source,native_id,material_id,description,native_unit,frequency,valuation,license
+WB_COPPER,WORLDBANK,"Copper","CU","Copper, LME grade A, cash",USD/mt,M,Spot (LME cash),CC BY 4.0
+WB_TIN,WORLDBANK,"Tin","SN","Tin, LME refined 99.85%, cash",USD/mt,M,Spot (LME cash),CC BY 4.0
+WB_ALUMINUM,WORLDBANK,"Aluminum","AL","Aluminum, LME 99.5% minimum purity, cash",USD/mt,M,Spot (LME cash),CC BY 4.0
+IMF_COPPER,IMF,PCOPPUSDM,CU,"Global price of Copper (IMF, via FRED)",USD/mt,M,Spot,IMF terms (free reuse with attribution)
+IMF_TIN,IMF,PTINUSDM,SN,"Global price of Tin (IMF, via FRED)",USD/mt,M,Spot,IMF terms (free reuse with attribution)
+IMF_ALUMINUM,IMF,PALUMUSDM,AL,"Global price of Aluminum (IMF, via FRED)",USD/mt,M,Spot,IMF terms (free reuse with attribution)
+PPI_SEMI,BLS,PCU334413334413,,"PPI: semiconductor and related device manufacturing",index,M,Producer price index,Public domain (US BLS)
+PPI_GASES,BLS,PCU325120325120,,"PPI: industrial gas manufacturing",index,M,Producer price index,Public domain (US BLS)
+PPI_INORGANIC,BLS,PCU325180325180,,"PPI: other basic inorganic chemical manufacturing",index,M,Producer price index,Public domain (US BLS)
+PPI_NONFERROUS,BLS,PCU331410331410,,"PPI: nonferrous metal (except aluminum) smelting and refining",index,M,Producer price index,Public domain (US BLS)

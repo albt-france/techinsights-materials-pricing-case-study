@@ -1,0 +1,11 @@
+event_date,material_id,event,source_type,source_url
+2020-02-01,ALL,"The United Kingdom leaves the EU; Comext 'EU' reporter changes composition (EU27_2020 used for the whole history)",Official statistics,https://ec.europa.eu/eurostat/web/international-trade-in-goods
+2022-02-24,NE,"Cryoin (Odesa) stops neon production on the day of the invasion of Ukraine; Ingas (Mariupol) halts in March 2022. Reuters estimates the two firms supplied 45-54% of semiconductor-grade neon",Press (Reuters via CNN),https://amp.cnn.com/cnn/2022/03/11/tech/ukraine-neon-chips
+2023-07-03,GA,"China's Ministry of Commerce and General Administration of Customs announce export licensing for gallium and germanium items (MOFCOM/GAC Announcement No. 23 of 2023)",Official (MOFCOM),http://english.mofcom.gov.cn/
+2023-08-01,GA,"Gallium and germanium export licensing takes effect",Official (MOFCOM),http://english.mofcom.gov.cn/
+2023-08-01,GE,"Gallium and germanium export licensing takes effect",Official (MOFCOM),http://english.mofcom.gov.cn/
+2024-12-03,GE,"China announces that export licences for gallium, germanium, antimony and superhard materials to the United States will in principle not be approved (MOFCOM Announcement No. 46 of 2024)",Official (MOFCOM),http://english.mofcom.gov.cn/
+2025-03-12,AL,"US Section 232 tariff on aluminium raised to 25%",Official (White House proclamation),https://www.whitehouse.gov/presidential-actions/2025/06/adjusting-imports-of-aluminum-and-steel/
+2025-06-04,AL,"US Section 232 tariff on aluminium raised to 50% (Proclamation 10947)",Official (White House proclamation),https://www.whitehouse.gov/presidential-actions/2025/06/adjusting-imports-of-aluminum-and-steel/
+2025-04-24,SI_MET,"US anti-dumping and countervailing duty petitions on silicon metal from Angola, Australia, Laos, Norway and Thailand",Official (US ITA / USITC),https://www.trade.gov/preliminary-affirmative-determination-countervailing-duty-investigations-silicon-metal-australia
+2025-11-09,GE,"MOFCOM Announcement No. 72 of 2025 suspends the US-specific ban of Announcement No. 46 until 2026-11-27; the general licensing regime stays in force",Official (MOFCOM),http://english.mofcom.gov.cn/
